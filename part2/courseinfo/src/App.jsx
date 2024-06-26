@@ -46,9 +46,6 @@ const App = () => {
     }
   ]
 
-  //  const test = course.parts.filter(part => part.exercises>=10);
-  //   console.log(test);
-
   return (
     <div>
       {courses.map(course => <Course key={course.id} course={course}/>)}
